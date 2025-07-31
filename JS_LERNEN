@@ -1,0 +1,54 @@
+# 📘 Meine Lernübersicht
+
+## JavaScript
+
+- `setAttribute()` – setzt ein Attribut auf ein Element (z. B. `aria-label`)
+- Ternary Operator (`? :`) – Kurzform für if/else  
+  Beispiel: `let x = (a > b) ? 'mehr' : 'weniger';`
+- `?.` Optional Chaining – prüft, ob eine Eigenschaft existiert, bevor darauf zugegriffen wird
+- String Interpolation mit Backticks – `${variable}` in `` `Text ${variable}` ``
+- DOM-Methoden: `querySelector`, `getElementById`, `addEventListener` (noch vertiefen)
+- Funktionen schreiben und aufrufen
+- Arrays und Objekte (Zugriff, Methoden wie `.map()`, `.filter()` usw.)
+
+---
+
+## HTML & CSS
+
+- HTML-Grundstruktur
+- Listen (`<ul>`, `<li>`)
+- Klassen und IDs
+- CSS-Box-Modell (margin, padding, border)
+- Farben, Abstände, Schriftgrößen
+- CSS-Variablen
+- Flexbox
+- Media Queries (Grundlagen)
+
+---
+
+## Git & GitHub
+
+- Repositories erstellen, strukturieren (z. B. `lernen/`, `webseite-kunde/`)
+- Markdown-Dateien (`README.md`, eigene Notizen)
+- Dateien & Ordner verschieben und versionieren
+- GitHub als Speicherort für Lernprojekte nutzen
+
+---
+
+## Markdown
+
+- Überschriften: `#`, `##`, `###` …
+- Listen: `-`, `*`
+- Codeblöcke: ```javascript ``` oder `inline`
+- Links: `[Text](URL)`
+- Fett: `**Text**`, Kursiv: `_Text_`
+
+---
+
+## 📝 To-Do / Nächste Schritte
+
+- Eigene kleine Projekte starten
+- CSS-Übung mit komplexeren Layouts
+- JS: Event Handling, DOM-Änderungen
+- Git: Branches & Commits besser verstehen
+- Cheatsheets für JS & CSS anlegen
