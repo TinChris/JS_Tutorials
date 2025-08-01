@@ -11,6 +11,33 @@
 - Funktionen schreiben und aufrufen
 - Arrays und Objekte (Zugriff, Methoden wie `.map()`, `.filter()` usw.)
 
+FILTER()
+### 🔍 `filter()` in JavaScript
+
+Die `filter()`-Methode erstellt ein **neues Array**, das nur die Elemente enthält, die eine bestimmte Bedingung erfüllen.
+
+#### ✅ Syntax:
+```js
+const result = array.filter(callback);
+
+const numbers = [1, 2, 3, 4, 5];
+const even = numbers.filter(n => n % 2 === 0);
+console.log(even); // ➜ [2, 4]
+
+createElement()
+
+### 🧱 `document.createElement()`
+
+Die Methode `createElement()` wird verwendet, um **ein neues HTML-Element im JavaScript** zu erstellen – es ist noch nicht im DOM, bis du es explizit hinzufügst.
+
+#### ✅ Syntax:
+```js
+const element = document.createElement('tagName');
+
+const newDiv = document.createElement('div');
+newDiv.textContent = 'Hallo Welt!';
+document.body.appendChild(newDiv);
+
 ---
 
 ## HTML & CSS
