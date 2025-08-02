@@ -38,6 +38,19 @@ const newDiv = document.createElement('div');
 newDiv.textContent = 'Hallo Welt!';
 document.body.appendChild(newDiv);
 
+createTextNode()
+The createTextNode() method is used to create a text node. To use it, you call it and pass in the text as a string:
+
+document.createTextNode("your text")
+const myText = document.createTextNode("your text")
+
+const parentElement = document.createElement("button")
+const parentElementText = document.createTextNode("Click me")
+
+
+
+lets you add a node or an element as the child of another element. In the example below, the text "Click me" would be attached to the button:
+
 ---
 
 ## HTML & CSS
