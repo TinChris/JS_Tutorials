@@ -59,7 +59,11 @@ getDay() → Wochentag (0–6)
 
 toLocaleDateString() → für einfache Formatierung
 
+const currentDate = new Date();
+console.log(currentDate);
 
+// Output:
+// Mon Aug 23 2021 15:31:00 GMT-0400 (Eastern Daylight Time)
 
 ---
 
