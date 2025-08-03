@@ -47,9 +47,19 @@ const myText = document.createTextNode("your text")
 const parentElement = document.createElement("button")
 const parentElementText = document.createTextNode("Click me")
 
+getDate() → Tag (1–31)
+
+getMonth() → Monat (0–11) → muss +1 gerechnet oder als Monatsname übersetzt werden
+
+getFullYear() → Jahr
+
+Optional:
+
+getDay() → Wochentag (0–6)
+
+toLocaleDateString() → für einfache Formatierung
 
 
-lets you add a node or an element as the child of another element. In the example below, the text "Click me" would be attached to the button:
 
 ---
 
